@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document voor Floats project*/
+
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	margin:0em 0em;
+	padding:0em 0em;
+	outline:2px solid silver;
+}
+
+div {
+	/*outline:2px dashed silver;*/
+	margin:0em;
+	padding:0;
+}
+
+img {
+	margin-right:1em;
+	float:left;
+	clear:right;
+}
+
+.wrapper clearfix:before,.wrapper clearfix: after {
+	content:" ";
+	display:block;
+	width:90%;
+	margin: 0 auto;
+	padding:0;
+	clear:both;
+ }
+	
+.links {
+	background:#55C5E8;
+	padding:1em 1.0%;
+	width:29%;
+	height:570px;
+	float:left;
+	margin:0em;
+    clear:right;
+}
+
+.rechts {
+	background:#FD6943;
+	padding:1em 2.0%;
+	float:left;
+    clear:right;
+	width:65%;
+
+	
+   }
+
+.sectie {
+	background:#F7F7F7;
+	padding:1em;
+	margin: 0em;;
+	}
+
+
+.thumb {
+	background:#A5CB4E;
+	width:90px;
+	height:140px;
+	padding:1.5em;
+	padding-left:2em;
+	margin: 0.625em;
+	float:left;
+	clear:recht;
+}
+
+.header {
+	background:#D93E89;
+	padding:1em 2em;
+}
+.footer {
+	background:#F4E740;
+	padding:1em 2em;
+	clear:both;
+}
+	
+.header h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:4em;
+	color:white;
+	margin:0.25em 0;
+}
+
+

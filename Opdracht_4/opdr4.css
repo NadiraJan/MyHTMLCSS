@@ -1,0 +1,155 @@
+body {
+	background: #e6e7e8;
+	color: #white;
+	font: small Arial, sans-serif;
+    width:95%;
+    margin:0 auto;
+    
+  }
+ 
+button {background:#629645;
+      color:white ;
+}
+div {   
+	margin:0em;
+	padding:5px 15px;
+   	}
+
+img
+ {	border: 0;
+	height:40px;
+	padding-top:2em;
+	padding-left:3em;
+}
+
+ul {list-style-type: none;
+    list-style-image: url(check.png);
+	margin: 0;
+	padding: 1em;
+    
+}
+
+/****header****/
+header {border-bottom: 1px solid silver;
+clear:right;}
+
+header ul {
+	margin: 0.5em;
+	padding: 0;
+	list-style: none;
+    padding-top: 3em;
+   
+}
+
+header li {
+	display: inline;
+	margin: 0 1em;
+ }
+
+header a {
+	text-decoration: none;
+}
+
+header nav {
+	float:right;
+	clear:both;
+  }
+
+header form {
+	text-align:right;
+	margin-top:0em;
+	font-size: 0.9em;
+	background-color:#629645;
+	padding-top:0;
+	color:white;
+	
+     }
+
+h1,h2 {color:#629645;}
+h3 {padding-left: 1em;}
+.inhoud{padding-left:3em;
+  }
+date {padding-left: 1em;
+      font-size: .8em;}
+   
+.shadow-1 {box-shadow:15px 15px 5px 0px #a19da0;
+	width:15%;
+    height:10%;
+    float:right;
+    transform:skew(-4deg,4deg); 
+    margin-bottom:0;
+    margin-right:35px;
+    border:3px solid #e2ceed;
+    background-image: url(web-developer.jpg);
+ }
+
+.skew {box-shadow:15px 15px 5px 0px        #a19da0;
+     background-image: url(responsive-design.jpg)
+     width:10%;
+     height:8%;
+     transform:skew(12deg,-12deg);
+     float:left;
+  	 clear:right;
+     border:3px solid #e2ceed;
+     padding: 0;
+	 margin-top:10px;
+	
+	}
+
+.footer {
+	clear: both;
+	padding: 0em 1em ;
+	border-top: 1px solid silver;
+	
+    margin-top:0;
+    padding-right: 2em;
+ }
+
+.box-inner {display:inline-block;}
+  
+
+
+.box {
+    box-sizing:border-box;
+    width: 33%;
+    background-color: #dbc8d8;
+    float:left;
+    clear:right;
+	padding-left: 2em;
+	
+}
+
+.logohtml {float:right;
+            margin-right:3em;
+            margin-top:0
+            width:10%;
+            height:15%;}
+    
+.container {margin-top: 0;
+            margin-right:0em;
+            border-top: 1px solid silver;
+            background: #dbc8d8;
+            width:99%;
+	border-bottom: 1px solid silver;
+       
+	 
+} 
+ 
+aside,article,.kol {
+	float:left;
+    width:300px;
+  
+	padding-left: 4em;
+	background: #e6e7e8;
+	
+	
+	
+}
+
+
+
+
+
+
+
+
